@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+}
+:root{
+    --Cyan: hsl(179, 65%, 47%);
+    --Cyann: hsl(179, 68%, 38%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Light-Gray);
+    min-height: 100vh;
+    font-family: "karla" serif;
+}
+.container{
+    max-width: 700px;
+}
+.main{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.15)
+}
+.upp{
+    margin-bottom: 20px;
+}
+.upp h1{
+    color:hsl(179, 65%, 47%);
+    padding: 35px 0 13px 35px;
+}
+.upp h4{
+    color: var(--Bright-Yellow);
+    padding: 15px 0 10px 35px;
+    font-size: 18px;
+}
+.upp p{
+    color:hsl(203, 14%, 75%);
+    padding: 5px 0 25px 35px;
+}
+.downn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.downn .leftt{
+    background-color: var(--Cyann);
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+}
+.downn .leftt h2{
+    color: #fff;
+    margin: 70px 60px 18px 0;
+}
+.downn .leftt span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -160px;
+}
+.downn .leftt span h1{
+    color: #fff;
+    margin-right: 15px;
+}
+.downn .leftt span p{
+    color:hsl(203, 14%, 75%);
+}
+.downn .leftt text{
+    color: #fff;
+    margin: 7px 0 28px -70px;
+}
+.downn .leftt button{
+    padding: 10px 110px;
+    margin-bottom: 80px;
+    margin-right: 25px;
+    color: #fff;
+    font-size: 16px;
+    background-color: var(--Bright-Yellow);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px 3px 1px rgba(0,0,0,0.25);
+}
+.downn .rightt{
+    background-color: var(--Cyan);
+    width: 450px;
+    height: 250px;
+    /*padding: 41px 60px;*/
+    border-bottom-right-radius: 10px;
+}
+.downn .rightt h2{
+    color: #fff;
+    padding: 25px 0 20px 40px;
+}
+.downn .rightt p{
+    color: var(--Light-Gray);
+    padding: 0 60px 40px 40px;
+    line-height: 20px;
+}
+.attribution {
+     font-size: 14px; 
+     text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
